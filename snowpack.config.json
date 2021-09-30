@@ -9,5 +9,7 @@
         "app/public": "/",
         "app/src": "/dist"
     },
-    "plugins": []
+    "plugins": [
+        "@snowpack/plugin-react-refresh"
+    ]
 }
