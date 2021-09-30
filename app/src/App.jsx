@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TypeScriptComponent from './TypeScriptComponent';
 
 import logo from './logo.svg';
 import './App.css';
@@ -19,6 +20,8 @@ function App() {
                 <p>
                     Page has been open for <code>{count}</code> seconds.
                 </p>
+                <TypeScriptComponent></TypeScriptComponent>
+
             </header>
         </div>
     );
