@@ -6,7 +6,8 @@
         "clean ": true
     },
     "mount": {
-        "app": "/"
+        "app/public": "/",
+        "app/src": "/dist"
     },
     "plugins": []
 }

@@ -19,5 +19,9 @@
   "homepage": "https://github.com/snakemode/empty-snowpack#readme",
   "devDependencies": {
     "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
