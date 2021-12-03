@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx snowpack dev",
-    "build": "npx snowpack build"
+    "start": "vite serve app",
+    "build": "tsc && vite build app"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/snakemode/empty-snowpack#readme",
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.2.0",
-    "@snowpack/plugin-react-refresh": "^2.5.0",
-    "snowpack": "^3.8.8"
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@vitejs/plugin-react": "^1.0.0",
+    "typescript": "^4.3.2",
+    "vite": "^2.6.4"
   },
   "dependencies": {
     "react": "^17.0.2",
